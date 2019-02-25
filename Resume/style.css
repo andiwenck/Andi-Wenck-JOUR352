@@ -32,18 +32,12 @@ body {
 
 /* style is for unordered list in education section */
 #degrees {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 5px 0px 0px 0px;
 }
 
 /* style is for unordered list in skills section */
 #do {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 5px 0px 0px 0px;
 }
 
 /* I commented out my photo */
@@ -55,11 +49,8 @@ body {
   font-size: 1.5em;
   color: #33485e;
   weight: 600;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-rgiht: 0px;
+  margin: auto;
+  margin-top: 20px 0px 0px 0px;
 }
 
 /* styles for my section titles */
@@ -70,10 +61,7 @@ body {
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 20px 0px 10px 0px;
   width: 70%;
   min-width: 300px;
 }
@@ -98,28 +86,35 @@ body {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
-  margin-top: 2px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin-top: 2px 0px 0px 0px;
 }
 
 /* this style is for my paragraph descriptions */
 .description {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 10px 0px 10px 0px;
 }
 
 /* this style is for my contact information list */
 .menu {
   margin: 0px;
   padding: 0px;
-  margin: 0 auto;
+  margin: auto;
+}
+
+/* inline style for my menu items */
+.inline {
+  display: inline;
 }
 
 /* styles for my list items (contact info, skills, education) */
 li {
   font-size: 1em;
+}
+
+/* style for mission statement */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
