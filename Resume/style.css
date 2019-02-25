@@ -27,7 +27,7 @@ body {
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
-  text-align: center;
+  margin: auto;
 }
 
 /* style is for unordered list in education section */
@@ -51,6 +51,7 @@ body {
   weight: 600;
   margin: auto;
   margin-top: 20px 0px 0px 0px;
+  text-align: center;
 }
 
 /* styles for my section titles */
