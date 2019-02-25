@@ -9,13 +9,16 @@ body {
 }
 
 /* style for my container div that includes my entire document and all of the body */
+/* this is an id */
 #container {
   width: 100%;
   min-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
-/* styles for my name*/
+/* styles for my name */
+/* this is an id */
 #name {
   font-size: 3em;
   color: #33485e;
@@ -27,41 +30,93 @@ body {
   margin: 0 auto;
 }
 
+/* style is for unordered list in education section */
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* style is for unordered list in skills section */
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 /* I commented out my photo */
 
 /* styles for my title */
-strong {
+/*replaced my strong html tag with an id */
+#title {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
+  weight: 600;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-rgiht: 0px;
 }
 
 /* styles for my section titles */
-h2 {
+/* this is a class */
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
   font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* styles for my job titles */
-h3 {
+/*this is a class */
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* styles for my job organization */
-h4 {
+/* this is a class */
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* styles for my job dates */
-h5 {
+/* this is a class */
+.date {
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+/* this style is for my paragraph descriptions */
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* this style is for my contact information list */
+.menu {
+  margin: 0px;
+  padding: 0px;
+  margin: 0 auto;
 }
 
 /* styles for my list items (contact info, skills, education) */
