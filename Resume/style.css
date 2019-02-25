@@ -27,7 +27,7 @@ body {
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 /* style is for unordered list in education section */
@@ -99,6 +99,10 @@ body {
   margin: 0px;
   padding: 0px;
   margin: 0 auto;
+}
+
+/* inline style for my contact information */
+.inline {
   display: inline;
   list-style-type: none;
 }
