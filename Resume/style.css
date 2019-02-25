@@ -8,6 +8,13 @@ body {
   font-weight: 400;
 }
 
+/* style for my container div that includes my entire document and all of the body */
+#container {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
 /* styles for my name*/
 #name {
   font-size: 3em;
