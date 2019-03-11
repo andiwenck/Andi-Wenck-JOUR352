@@ -1,0 +1,56 @@
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  color: black;
+}
+
+h1 {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+ul {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  color: black;
+}
+
+figcaption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+}
+
+blockquote {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: red;
+  margin-top: 15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+#byline {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.banner {
+margin: 0 auto;
+width: 900px;
+height: 200px;
+}
+
+.images {
+width: 742px;
+height: 495px;
+}
