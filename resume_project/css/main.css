@@ -2197,15 +2197,25 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
+    padding-top: 10rem;
+    padding-bottom: -2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     background-color: #FFFFFF;
     position: relative;
 }
 
+.s-aboutt {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: #FFFFFF;
+  position: relative;
+}
 .about-content {
-    margin-bottom: 3rem;
-    margin-top: -2rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
 .about-content .left {
@@ -2225,7 +2235,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     text-align: left;
     margin-top: 3.6rem;
-    margin-bottom: -6rem;
+    margin-bottom: 0rem;
 }
 
 .timeline::before {
@@ -2357,7 +2367,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works {
     padding-top: 15rem;
-    padding-bottom: 15.6rem;
+    padding-bottom: 15rem;
     background-color: #f1f1f1;
     position: relative;
 }
@@ -2876,10 +2886,10 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-cta {
-    margin-top: -3rem;
-    margin-bottom: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
     background-color: #f1f1f1;
     position: relative;
     z-index: 1;
