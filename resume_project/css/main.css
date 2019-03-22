@@ -2874,10 +2874,10 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-cta {
-    margin-top: 0rem;
+    margin-top: -6rem;
     margin-bottom: 0rem;
-    padding-top: 3;
-    padding-bottom: 6rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
     background-color: #f1f1f1;
     position: relative;
     z-index: 1;
