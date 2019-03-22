@@ -203,7 +203,6 @@
 
         </div> <!-- end about-content -->
 
-        <!-- start about buttons -->
         <div class="row about-content about-content--buttons">
 
             <div class="col-six tab-full left">
@@ -218,10 +217,9 @@
             <br>
             <br>
 
-        </div> <!-- end about buttons -->
+        </div> <!-- end about-content buttons -->
 
-        <!-- start education content -->
-        <div>
+        <div> <!-- start education content -->
         <section class="s-cta">
 
             <div class="row narrow cta">
@@ -262,7 +260,6 @@
                   </p>
         </section>
 
-        <!-- start work experience -->
         <div class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
@@ -356,10 +353,8 @@
         </div> <!-- end about-content timeline -->
 
     </section> <!-- end about -->
-    <!-- end work experience -->
 
-
-    <!-- s-cta button
+    <!-- s-cta
     ======================================= -->
     <section id="works" class="s-works target-section">
 
@@ -374,7 +369,6 @@
             <a class="btn btn--primary btn--large" href="http://www.vimeo.com/andiwenck">Click Me</a>
             </div>
         </div>
-
 
     <!-- works
     ==================================================
@@ -641,9 +635,24 @@
                 </div> <!-- end masonry__brick -->
 
             </div>
-        </div>
+        </div> <!-- end masonry -->
 
-    </section>
+    </section> <!-- end works -->
+
+
+<!--Start to Button Link
+            <div>
+                <h2 class="h01"><a href="http://www.googel.com">Here's My Education.</a></h2>
+
+                <p class="lead">
+                Looking for an awesome and reliable webhosting? Try <a href="http://www.googel.com">DreamHost</a>.
+                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
+                </p>
+
+                <div class="cta__action">
+                <a class="btn btn--primary btn--large" href="http://www.googel.com">Sign Up Now</a>
+                </div>
+            </div>
 
 
     <!-- testimonials
@@ -695,8 +704,8 @@
 
     </div> <!-- end s-testimonials -->
 
+
     <!-- blog
-    ==================================================
     <section id="blog" class="s-blog target-section">
 
         <div class="row narrow section-intro has-bottom-sep">
@@ -776,12 +785,12 @@
                             <a href="blog.html">Design</a><a href="blog.html">Branding</a>
                         </div>
                     </article>
-                </div>
+                </div> <!-- end blog-list -->
 
-            </div>
-        </div>
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
 
-    </section>
+    </section> <!-- end s-blog -->
 
 
     <!-- s-stats
@@ -834,26 +843,45 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form action="mailto:andiwenck@gmail.com" method="GET">
+                <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php">
                     <fieldset>
 
                     <div class="form-field">
-                        <input type="text" placeholder="Name" value="" class="full-width">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input type="email"  placeholder="Email" value="" class="full-width">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="subject" type="text"  placeholder="Subject" value="" class="full-width">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="body"  placeholder="message" rows="10" cols="50" class="full-width"></textarea>
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <input type="submit" value="Send" class="full-width btn--primary"/>
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
                     </div>
+
                     </fieldset>
                 </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
 
             </div>
             <div class="col-four tab-full contact__infos">
