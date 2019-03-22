@@ -2242,6 +2242,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     padding-left: 8rem;
     min-height: 28.8rem;
+    padding-bottom: 3rem;
 }
 
 .timeline__bullet {
