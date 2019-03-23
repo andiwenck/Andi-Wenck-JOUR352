@@ -780,7 +780,7 @@ input[type="button"] {
     line-height: calc(5.4rem - .6rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #151515;
+    color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
@@ -830,8 +830,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #eeb03f;
-    border-color: #eeb03f;
+    background: #e9a72e;
+    border-color: #e9a72e;
+    color: #000000;
 }
 
 
@@ -855,13 +856,13 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.3rem solid #000000;
-    color: #000000;
+    border: 0.3rem solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #eeb03f;
-    color: #eeb03f;
+    border: 0.3rem solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .btn--pill, button.btn--pill {
@@ -1013,17 +1014,33 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * --------------------------------------------------------------------- */
 
+#yellowquote {
+  font-family: "montserrat-semibold", sans-serif;
+  font-size: 2rem;
+  color: #eeb03f;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.pull-quote-size {
+  font-size: 8rem;
+}
+
 .pull-quote {
     position: relative;
     padding: 2.1rem 3rem 2.1rem 0px;
 }
+
 
 .pull-quote:before, .pull-quote:after {
     height: 1em;
     position: absolute;
     font-size: 10rem;
     font-family: Arial, Sans-Serif;
-    color: rgba(0, 0, 0, 0.15);
+    color: #000000;
 }
 
 .pull-quote:before {
@@ -3058,8 +3075,8 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 13.2rem;
-    padding-bottom: 12rem;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }

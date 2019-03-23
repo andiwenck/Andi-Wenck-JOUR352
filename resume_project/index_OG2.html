@@ -827,30 +827,42 @@
                 <h3>Contact</h3>
                 <h1>Say Hello.</h1>
                 <p class="lead">Don't be shy, ask me some questions or tell me I'm hired.</p>
-
             </div>
-            <!-- start about buttons -->
-            <div class="row about-content about-content--buttons">
-
-                <div class="col-six tab-full left">
-                    <a onclick="location.href='mailto:andiwenck@gmail.com';" class="btn btn--primary full-width">Email Me</a>
-                </div>
-                <div class="col-six tab-full right">
-                    <a href="tel:1+262-758-9509" class="btn full-width">Call Me</a>
-                </div>
-
-            </div> <!-- end about buttons -->
         </div>
 
-<!--specific contact info
         <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form action="mailto:andiwenck@gmail.com" method="GET">
+                    <fieldset>
 
+                    <div class="form-field">
+                        <input type="text" placeholder="Name" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input type="email" placeholder="Email" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="subject" type="text" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="body" type="text" placeholder="message" value="" rows="10" cols="50" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <input type="submit" value="Send" class="full-width btn--primary"/>
+                    </div>
+                    </fieldset>
+                </form>
+
+            </div>
             <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Phone</h4>
-                <p>Phone: (262) 758 9509</p>
+                <p>Phone: (262) 758 9509
+                </p>
 
                 <h4 class="h06">Email</h4>
-                <p>andiwenck@gmail.com</p>
+                <p>andiwenck@gmail.com<br>
+                awenck@umd.edu.com
+                </p>
 
                 <h4 class="h06">Address</h4>
                 <p>
@@ -859,22 +871,8 @@
                 53120 US
                 </p>
             </div>
-end specific contact info-->
 
-<!--pull quote option
-            <div class="col-eight tab-full">
-
-                    <fieldset>
-                    <div class="form-field" class="full-width">
-                          <p id="yellowquote">
-                            <span class="pull-quote-size">Good</span><br>
-                            things happen to those who<br>
-                            <span class="pull-quote-size">hustle.</span>
-                          </p>
-                    </div>
-                    </fieldset>
-            </div>
-end pull quote-->
+        </div>
 
     </section> <!-- end s-contact -->
 
