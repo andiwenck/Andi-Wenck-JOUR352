@@ -1,0 +1,102 @@
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  color: black;
+}
+
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+/* subheadings code */
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  color: black;
+  margin: 50px 0px 0px 0px;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  color: black;
+}
+
+h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  color: black;
+}
+
+ul {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  color: black;
+}
+
+figcaption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+}
+
+blockquote {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #fc9d1f;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+  width: 300px;
+  float: left;
+}
+
+.burners {
+  margin: 50px;
+}
+
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.banner {
+margin: 0 auto;
+width: 900px;
+height: 200px;
+}
+
+.images {
+width: 263px;
+height: 175px;
+}
+
+.float {
+  float: right;
+}
+
+#float {
+  float: left;
+}
+
+body, html {
+  background-color: white;
+  width: 100%;
+}
