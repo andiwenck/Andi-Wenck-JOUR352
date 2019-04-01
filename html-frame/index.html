@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
+  <title>Bootstrap Template</title>
   <meta name="viewport" content="width=advice-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Description of website goes here">
   <meta name="author" content="Andi Wenck">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Bootstrap Template</title>
 
+  <!-- Load c3.css -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+     <!-- Load our CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Load d3.js and c3.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 </head>
 
 <body>
@@ -50,39 +59,57 @@
   </nav>
   <!-- End Nav Bar Bootstrap -->
 
+<!-- begin content with contianer div -->
+  <div id="container">
+    <p class="headline">The headline goes here.</p>
+    <p class="byline">The byline goes here.</p>
+    <p class="chapter">The chapter headline goes here.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-  <!-- Jumbotran -->
-  <div class="jumbotron">
-   <h1 class="display-4">Hello, world!</h1>
-   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-   <hr class="my-4">
-   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <!-- photo -->
+    <div class="imagesbox">
+      <img src="image.jpg" alt="Alternate Name" class="images">
+      <p class="caption">Caption<br>
+        Credit: Source
+      </p>
+    </div>
+    <!-- end photo -->
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <!-- coloumns -->
+    <div class="columns">
+        <div class="row">
+
+            <div class="col-md-4">
+                <p>one of three columns</p>
+            </div>
+
+            <div class="col-md-4">
+                <p>two of three columns</p>
+            </div>
+
+            <div class="col-md-4">
+                <p>three of three columns</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- end coloumns -->
+
   </div>
-  <!-- End Jumbotran -->
+  <!-- end content with container div -->
 
-  <!-- Here's a group of coloumns -->
-  <div class="container">
-          <div class="row">
-
-                  <div class="col-md-4">
-                          <h3>Heading 1</h3>
-                          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                  </div>
-
-
-                  <div class="col-md-4">
-                          <h3>Heading 2</h3>
-                          <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
-                  </div>
-
-                  <div class="col-md-4">
-                          <h3>Heading 3</h3>
-                          <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                  </div>
-          </div>
-  </div>
-  <!-- End group of coloumns -->
+  <!-- footer -->
+  <!-- Begin page content -->
+   <footer class="footerbox">
+     <div class="footer">
+       <p>Place sticky footer content here.<br>
+          Copyright 2019 Andi Wenck
+      </p>
+     </div>
+   </footer>
+   <!-- end footer -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
