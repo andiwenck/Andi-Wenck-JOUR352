@@ -4,9 +4,13 @@ p {
   line-height: 180%;
 }
 
+body, html {
+  width: 100%;
+}
+
 #container {
   margin: 0 auto;
-  width: 1000px;
+  min-width: 100px;
 }
 
 .headline {
