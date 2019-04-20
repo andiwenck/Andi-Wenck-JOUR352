@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>The Story of #JordanMcNair</title>
+  <meta name="viewport" content="width=advice-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Description of website goes here">
+  <meta name="author" content="Andi Wenck">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Load c3.css -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+     <!-- Load our CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Load d3.js and c3.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+  <!-- Load c3.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+    <!-- Load d3.js and c3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
+
+    <!--sound bite-->
+    <link href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'><script type='text/javascript' src='https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+    <!--end sound bite-->
+</head>
+
+<body>
+  <!-- Nav Bar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="#">Navbar</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+       </li>
+       <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Dropdown
+         </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="#">Action</a>
+           <a class="dropdown-item" href="#">Another action</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Something else here</a>
+         </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link disabled" href="#">Disabled</a>
+       </li>
+     </ul>
+     <form class="form-inline my-2 my-lg-0">
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     </form>
+   </div>
+  </nav>
+  <!-- End Nav Bar Bootstrap -->
+
+
+
+
+<div id="container">
+
+  <div class="black">
+    <h1>THE STORY OF<br>
+      #JORDANMCNAIR
+    </h1>
+  </div>
+
+  <div class="red center">
+    <h2>“WOW, JORDAN LOOKS F---ED UP, HE DOESN'T LOOK ALL RIGHT.”</h2>
+    <p>–UMD football player</p>
+  </div>
+
+  <div class="black">
+    <p>On May 29th, 2018, offensive lineman Jordan McNair and his teammates from the University of Maryland lined up to run a 110-yard sprint set. Near the end of their workout, McNair reportedly showed signs of extreme exhaustion.</p><br>
+    <p>“There were multiple people that said, ‘Wow, Jordan looks f---ed up, he doesn’t look all right,’” one of McNair’s teammates said. “We know he was really exhausted, but we didn’t know he was in danger of his life. But that doesn’t mean that a medical professional shouldn’t know to put him in an ice tub.”</p><br>
+    <p>Approximately one hour later, Maryland called 911, noting that McNair had experienced a heatstroke. EMT responders transported McNair to Washington Adventist Hospital before moving him to Cowley Shock Trauma Center in Baltimore. He died two weeks later.</p>
+  </div>
+
+  <!-- TIMELINE -->
+  <div id="timeline">
+    <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1OjY8sun8nW9yDCZun9fugZGRw8CNKIUzG2oG9m7noHw&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+  </div>
+  <!-- end TIMELINE -->
+
+  <div id="video" class="black">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6EO_phwlAD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+    <!-- PIE CHART container-->
+     <div class="graphic-container red">
+       <h2>Heat Stroke: Risk of Death</h2>
+       <p>The risk of death is less than 5% in those with exercise-induced heat stroke.</p>
+       <div id="resourceOfficersChart"></div>
+       <em>Source: Lisa Leon and Abderrezak Bouchama of Comprehensive Physiology</em>
+     </div>
+    <div id="resourceOfficersChart"></div>
+     <!-- PIE CHART container-->
+
+  <div class="black">
+    <p>After McNair’s death, the university was targeted with various accusations regarding the safety and wellbeing of its football players. As a result, University of Maryland’s Board of Regents issued a commission to investigate the accusations and examine the culture of Maryland football. During this time, head football coach D.J. Durkin and a number of other University of Maryland football staff were put on administrative leave, many of which never returned.
+    </p>
+  </div>
+
+  <div class="black">
+    <p>The board released their commissioner’s report on September 21st, 2018. The report found Maryland’s football staff at fault for “a host of errors—including failing to immerse McNair in cold water, which experts say is the best practice and could have saved his life.” The report also declared that “the Maryland football team did not have a ‘toxic culture’ but did have a culture ‘where problems festered because too many players feared speaking out.’”</p><br>
+    <p>The board met with University of Maryland President, Wallace Loh, Athletic Director, Damon Evans, and Durkin to discuss the findings of the report five days later. After the discussion, the board voted to reinstate Durkin in a close session and retain Evans. Shortly after, President Loh announced his retirement for June 2018.</p>
+  </div>
+
+  <div class="red center">
+    <h2>#JusticeForJordan</h2>
+  </div>
+
+  <div class="black">
+    <p>“ITS NEVER THE WRONG TIME TO DO WHATS RIGHT!” –Ellis McKennie Oct. 31, 2018</p>
+    <p>“Pressure bursts pipes doesn’t it??” –Tre Watson Oct. 31, 2018</p>
+    <p>“True peace is not merely the absence of tension: it’s the presence of justice” –Michael Cornwell Oct. 31, 2018</p>
+  </div>
+
+  <div class="red">
+    <p>After hearing the Board of Regents’ decision reinstating Durkin, University of Maryland’s Student Government Association called for a protest. Hundreds of students gathered in the heart of campus, November 1st, 2018, demanding #JusticeForJordan</p><br>
+    <p>Ellis McKennie, who was a teammate and close friend of McNair, helped organize the event by taking storm to social media. “Once the social media spark happened,” Mckennie said, “then people started to speak up and say, ‘Oh, so it’s OK to say something.’” Masses of students carried signs depicting McNair’s jersey number, 79, chanting <span class="soundcite" data-id="608859270" data-start="0" data-end="8122.999999999999" data-plays="1">#JusticeForJordan</span> and delivering impassioned speeches.</p>
+  </div>
+
+  <div id="photos">
+    <p>insert photo slider gallery here</p>
+  </div>
+
+  <div class="black center">
+    <h2>Durkin was fired by the University of Maryland the following day.</h2>
+  </div>
+
+  <div class="red">
+    <p>Roughly a month after dismissing Durkin, the University of Maryland hired Mike Locksley, a D.C. native and former offensive coordinator for the University of Alabama. The new coach hopes to not only rebuild a team that lost a player, but also rebuild a team in its fourth consecutive losing season. “I want to create the right culture and environment, and winning will follow,” Locksley said. “We have one of the best areas in the country for talent, and we’re going to work our tails off to keep it right here.”</p><br>
+    <p>President Loh, who had planned to retire after the 2018-2019 academic year, reversed his resignation in early 2019. In a statement released to the public, President Loh said, “The Board discussed with me having a smooth transition of leadership, and we mutually agreed upon a retirement date of June 2020. With all of Maryland’s supports, I look forward to what we will accomplish together.”</p>
+  </div>
+
+  <div class="black">
+    <p>Today, Maryland football honors McNair by memorializing his uniform number, 79. The number 79 is painted on the turf in three different places, stitched into a traveling flag, and stuck on the back of every player’s helmet.</p>
+    <p>INSERT PHOTO OF THEM</p>
+  </div>
+
+  <!-- LINE CHART container
+    <div class="graphic-container red">
+      <h2>Examining the carnage</h2>
+      <p></p>
+      <div id="myLineChart"></div>
+      <em>Source: National Vital Statistics System</em>
+     </div>
+    <div id="myLineChart"></div>
+<!-- LINE CHART container-->
+
+  <!-- STORYMAP -->
+    <iframe src="https://uploads.knightlab.com/storymapjs/103a3df798938176dd6d0075dd216236/jordanmcnair/index.html" frameborder="0" width="100%" height="800"></iframe>
+  <!-- end STORYMAP -->
+
+  <div class="red">
+    <p>Parents of McNair, Marty McNair and Tonya Wilson honor McNair through the creation of the Jordan McNair Foundation. The Jordan McNair foundation a non-profit organization dedicated to “educate student-athletes, parents, and the football community at large on the signs and symptoms of heatstroke and heat-related illnesses.” Through this organization, McNair’s parents hope to reduce the number of heat-related illnesses occurring in student-athletes by educating appropriate prevention, providing support, mobilizing resources, and funding scholarships.</p>
+  </div>
+
+  <!-- BAR CHART container-->
+    <div class="graphic-container red">
+      <h2>Heat-Related Death Occurrence</h2>
+      <p>Almost all heat-related deaths occur during May-September, with the highest nubmers occuring in July and August.</p>
+      <div id="shootingsByTypeChart"></div>
+      <em>Source: Centers for Disease Control and Prevention</em>
+    </div>
+    <div id="shootingsByTypeChart"></div>
+    <!-- BAR CHART container-->
+
+</div>
+
+
+
+
+  <!-- begin c3 script-->
+      <script type="text/javascript">
+      ///PIE CHART
+      var chart3 = c3.generate({
+        bindto: '#resourceOfficersChart',
+        data: {
+          // iris data from R
+          columns: [
+            ['Mortality Rate', 5],
+            ['Survival Rate', 95],
+          ],
+          type : 'pie',
+          onclick: function (d, i) { console.log("onclick", d, i); },
+          onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+          onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        color: {
+          pattern: ['#000000', '#333333']
+        }
+      });
+      ///BAR CHART
+      var chart2 = c3.generate({
+        bindto: '#shootingsByTypeChart',
+        data: {
+          columns: [
+            ['May', 403],
+            ['June', 1614],
+            ['July', 3145],
+            ['August', 2138],
+          ],
+       type: 'bar'
+        },
+        color: {
+          pattern: ['#000000', '#333333']
+        }
+    });
+    /// LINE CHART
+    var chart = c3.generate({
+      bindto: '#myLineChart',
+      data: {
+        x: 'x',
+        columns: [
+          ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          ['Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+          ['Injured', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
+        ]
+      },
+      color: {
+        pattern: ['#000000', '#333333']
+      }
+    });
+   </script>
+  <!-- end cs3 script -->
+
+  <!-- begin footer -->
+   <footer class="footerbox">
+     <div class="footer">
+       <p>School Shootings Data<br>
+          Copyright 2019 Andi Wenck
+      </p>
+     </div>
+   </footer>
+   <!-- end footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="jquery.js"></script>
+  <script src="fadein.js"></script>
+</body>
+
+</html>

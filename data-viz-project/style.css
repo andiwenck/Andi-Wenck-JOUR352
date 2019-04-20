@@ -1,0 +1,144 @@
+p {
+  font-size: 1em;
+  font-family: Open Sans, Times, serif;
+  line-height: 180%;
+  color: white;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+em {
+  font-size: .5em;
+  font-family: Open Sans, Times, serif;
+  line-height: 180%;
+  color: white;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: Oswald, Times, serif;
+  line-height: 100%;
+  color: white;
+  text-align: right;
+}
+
+h2{
+  font-size: 2em;
+  font-family: Oswald, Times, serif;
+  line-height: 100%;
+  color: white;
+}
+
+body, html {
+  width: 100%;
+}
+
+#container {
+  margin: 0 auto;
+  min-width: 100px;
+}
+
+#video {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  margin: 0 auto;
+  background-color: #d13b3e;
+  padding: 15em;
+  margin: 0em;
+}
+
+.black {
+  margin: 0 auto;
+  background-color: black;
+  padding: 15em;
+  margin: 0em;
+}
+
+.center {
+  text-align: center;
+}
+
+.graphic-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.chapter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* photos */
+.images {
+  width: 500px;
+}
+
+.imagesbox {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.caption {
+  text-align: left;
+  font-size: .5em;
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  line-height: 125%;
+}
+
+/* columns */
+.columns {
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+
+/* footer */
+.footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 15px 5px 5px 5px;
+}
+
+.footerbox {
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+section.visible {
+  opacity: 1;
+}
