@@ -47,6 +47,19 @@ body, html {
   height: 100%;
 }
 
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .red {
   margin: 0 auto;
   background-color: #d13b3e;
@@ -68,6 +81,9 @@ body, html {
 .graphic-container {
   margin: 0 auto;
   text-align: center;
+  background-color: #d13b3e;
+  padding: 15em;
+  margin: 0em;
 }
 
 .headline {
@@ -102,6 +118,11 @@ body, html {
   text-align: center;
 }
 
+.text {
+  text-align: center;
+  margin: -2em;
+}
+
 .caption {
   text-align: left;
   font-size: .5em;
@@ -132,13 +153,4 @@ body, html {
 .footerbox {
   width: 100%;
   text-align: center;
-}
-
-section {
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-section.visible {
-  opacity: 1;
 }
