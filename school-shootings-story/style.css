@@ -1,0 +1,171 @@
+p {
+  line-height: 180%;
+  text-align: left;
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+}
+
+body, html {
+  width: 100%;
+  font-family: 'PT Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #e0162b;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0052a5;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #999;
+}
+
+#container {
+  margin: 0 auto;
+  min-width: 100px;
+  max-width: 900px;
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+.startop {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 900px;
+}
+
+.bg-dark {
+ background: #000 !important;
+}
+
+ul.navbar-nav {
+ margin-left: 50%;
+}
+
+.navbar {
+ font-family: 'Montserrat Bold', sans-serif;
+ color: white;
+ font-size: 1.25em;
+}
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Montserrat Bold', sans-serif;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 1.25em;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat Bold', sans-serif;
+  font-weight: 500;
+}
+
+.chapter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  font-family: 'Montserrat Bold', sans-serif;
+  padding-top: 20px;
+  width: 100%;
+}
+
+/* photos */
+.images {
+  width: 500px;
+}
+
+.stack-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.caption {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #999;
+  text-align: left;
+}
+
+.graphic-container h2 {
+  font-size: 2em;
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+.graphic-container p {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-weight: 500;
+}
+
+.graphic-container {
+  padding-top:30px;
+  padding-bottom:30px;
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  margin: 0 auto;
+  font-family: 'Montserrat Bold', sans-serif;
+  font-weight: 500;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.grey {
+  background-color: #ccc
+}
+
+strong {
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+/* footer */
+.footer p {
+  color: white;
+  text-align: center;
+  background-color: black;
+  height: 100px;
+  padding: 25px;
+  font-family: 'Montserrat Bold', sans-serif;
+}
+
+.footerbox {
+  width: 100%;
+  text-align: center;
+}
