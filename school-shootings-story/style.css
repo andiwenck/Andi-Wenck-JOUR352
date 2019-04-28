@@ -112,6 +112,17 @@ ul.navbar-nav {
   padding-top: 30px;
 }
 
+.images2 {
+  width: 800px;
+}
+
+.stack-image2 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
 .caption {
   width: 100%;
   max-width: 900px;
@@ -148,11 +159,14 @@ ul.navbar-nav {
 }
 
 .grey {
-  background-color: #ccc
+  background-color: #ccc;
+  padding: 1em;
+  text-align: left;
 }
 
-strong {
+#bold {
   font-family: 'Montserrat Bold', sans-serif;
+  font-weight: 700;
 }
 
 /* footer */

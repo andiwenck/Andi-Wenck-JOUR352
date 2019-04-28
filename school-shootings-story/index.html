@@ -66,7 +66,7 @@
     <!-- photo -->
       <div class="stack-image">
         <img src="images/image1.jpg" alt="Alaina Petty" class="images">
-        <p class="caption">Alaina Petty, 14, Marjory Stoneman Douglas High School shooting victim. Photo from CNN</p>
+        <p class="caption">Alaina Petty, 14. Marjory Stoneman Douglas High School shooting victim. Photo from CNN</p>
       </div>
     <!-- end photo -->
 
@@ -137,13 +137,13 @@
      </div>
      <!-- END graphic container-->
 
-     <p>The surviving victims of school shootings are increasingly putting pressure on state and national legislators to pass stricter gun control laws and take action on mass shootings. This video from The New York Times features school shooting survivors talking about their desire to see action taken by lawmakers.</p>
+     <p>The surviving victims of school shootings are increasingly putting pressure on state and national legislators to pass stricter gun control laws and take action on mass shootings.</p>
 
      <p>The survivors of the Parkland High School shooting have come out on the national stage as a driving force promoting the passage of new gun legislation to protect against future school shootings.</p>
 
          <!-- photo -->
-           <div class="stack-image">
-             <img src="images/image2.jpg" alt="Emma Gonzalez" class="images">
+           <div class="stack-image2">
+             <img src="images/image2.jpg" alt="Emma Gonzalez" class="images2">
              <p class="caption">Emma Gonzalez, a senior at Marjory Stoneman Douglas High School, speaks at a rally for gun control. Photo from People Magazine</p>
            </div>
          <!-- end photo -->
@@ -192,21 +192,17 @@
      <!-- END graphic container-->
 
       <div class="grey">
-        <strong>About the data</strong>
+        <p id="bold">About the data</p>
         <p>School shooting data is surprisingly messy and hard to come by. There are a few government or academic studies on teh subject and those that do exist are mostly outdated. Further, school shooting data tends to be messy and hard to deal with. According to <a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/">The Atlantic</a>, the parameters of chool shooting incidents makes data inconsistent. The sources listed in this story are below.</p>
         <p>
           <a href="https://github.com/washingtonpost/data-school-shootings ">Washington Post School Shootings Data</a>
-        </p>
-        <p>
+          <br>
           <a href="https://github.com/StanfordGeospatialCenter/MSA">Stanford Mass Shootings in American Data</a>
-        </p>
-        <p>
+          <br>
           <a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/">Why school shooting data is messy</a>
-        </p>
-        <p>
+          <br>
           <a href="https://www2.ed.gov/admins/lead/safety/preventingattacksreport.pdf">Implicaitons for the Prevention of School Attacks in the United States</a>
-        </p>
-        <p>
+          <br>
           <a href="https://www.psychologytoday.com/us/blog/when-disaster-strikes-inside-disaster-psychology/201803/profiling-school-shooters">Profiling school shooters</a>
         </p>
       </div>
@@ -214,7 +210,7 @@
       <!-- photo -->
         <div class="stack-image">
           <img src="images/image3.jpg" alt="Joaquin Oliver" class="images">
-          <p class="caption">Joaquin Oliver, Majory Stoneman Douglas High School shooting victim. Photo from Sun Sentinel</p>
+          <p class="caption">Joaquin Oliver, Majory Stoneman Douglas High School shooting victim. Photo from Sun Sentinel.</p>
         </div>
       <!-- end photo -->
 
@@ -250,27 +246,24 @@
       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
     }
    });
-   ///PIE CHART
-      var chart3 = c3.generate({
-        bindto: '#resourceOfficersChart',
-        data: {
-          // iris data from R
-          columns: [
-            ['Asian', 1],
-            ['American Indian', 3],
-            ['Black', 35],
-            ['Hispanic', 6],
-            ['White', 60],
-          ],
-          type : 'pie',
-          onclick: function (d, i) { console.log("onclick", d, i); },
-          onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-          onmouseout: function (d, i) { console.log("onmouseout", d, i); }
-        },
-        color: {
-          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-        }
-      });
+   //PIE CHART
+    var chart3 = c3.generate({
+      bindto: '#resourceOfficersChart',
+      data: {
+        // iris data from R
+        columns: [
+          ['Present', 35],
+          ['Not present', 65],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
    /// LINE CHART
     var chart = c3.generate({
       bindto: '#myLineChart',
@@ -287,21 +280,26 @@
         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
       }
     });
-    ///BAR CHART
-      var chart2 = c3.generate({
-        bindto: '#shootingsByTypeChart',
-        data: {
-          columns: [
-            ['City', 101],
-            ['Suburb', 58],
-            ['Town', 24],
-            ['Rural', 31],
-          ],
-       type: 'bar'
-        },
-        color: {
-          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
-        }
+    //CHART 2
+    var chart2 = c3.generate({
+      bindto: '#shootingsByTypeChart',
+      data: {
+        columns: [
+          ['Targeted', 130],
+          ['indiscriminate', 42],
+          ['Accidental', 25],
+          ['Targeted and indiscriminate', 5],
+          ['Public suicide', 4],
+          ['Unclear', 3],
+          ['hostage suicide', 2],
+          ['Accidental or targeted', 2],
+          ['Public suicide (attempted)', 1]
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
     });
         </script>
         <!-- End java script -->
