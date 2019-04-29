@@ -79,15 +79,53 @@ ul.navbar-nav {
 .red {
   margin: 0 auto;
   background-color: #d13b3e;
-  padding: 15em;
   margin: 0em;
+  width: 100%;
+  text-align: center;
+}
+
+.redtext {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.redtextcenter {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .black {
   margin: 0 auto;
   background-color: black;
-  padding: 15em;
   margin: 0em;
+  width: 100%;
+  text-align: center;
+}
+
+.blacktext {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.blacktextcenter {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .center {
@@ -96,10 +134,18 @@ ul.navbar-nav {
 
 .graphic-container {
   margin: 0 auto;
-  text-align: center;
   background-color: #d13b3e;
-  padding: 15em;
   margin: 0em;
+  width: 100%;
+  text-align: center;
+}
+
+.graphic-container-back {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* photos */
