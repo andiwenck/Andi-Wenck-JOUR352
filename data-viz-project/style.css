@@ -150,12 +150,9 @@ ul.navbar-nav {
 
 /* photos */
 .images {
-  width: 500px;
-}
-
-.imagesbox {
-  width: 500px;
   margin: 0 auto;
+  margin: 0em;
+  width: 100%;
   text-align: center;
 }
 
