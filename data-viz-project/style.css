@@ -60,6 +60,11 @@ a:hover {
   color: #ffffff;
 }
 
+#link {
+  text-decoration: none;
+  color: #d13b3e;
+}
+
 #container {
   margin: 0 auto;
   min-width: 100px;
@@ -78,6 +83,7 @@ a:hover {
   height: 100%;
 }
 
+/*
 .fill {
   display: flex;
   justify-content: center;
@@ -90,6 +96,7 @@ a:hover {
   min-width: 100%;
   min-height: 100%;
 }
+*/
 
 .red {
   margin: 0 auto;
@@ -117,6 +124,10 @@ a:hover {
   text-align: center;
 }
 
+.redlink {
+  color: #d13b3e;
+}
+
 .black {
   margin: 0 auto;
   background-color: black;
@@ -134,6 +145,15 @@ a:hover {
   text-align: left;
 }
 
+#blacktext {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+}
+
 .blacktextcenter {
   padding-top: 300px;
   padding-bottom: 300px;
@@ -142,11 +162,6 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
-
-.center {
-  text-align: center;
-}
-
 
 .graphic-container {
   margin: 0 auto;
@@ -177,6 +192,10 @@ a:hover {
   padding-right: 10px;
   margin-top: -20px;
   z-index: 2;
+}
+
+iframe {
+  margin: 0 auto;
 }
 
 .caption {
