@@ -67,6 +67,30 @@ a:hover {
   display: inline-block;
 }
 
+.chapter {
+  font-size: 5em;
+  font-family: 'Oswald', Times, serif;
+  line-height: 100%;
+  color: white;
+  /*phone response*/
+  width: 100%;
+  max-width: 800px;
+}
+
+.icon {
+  position: relative;
+  bottom: 25px;
+}
+
+#lasticon {
+    position: relative;
+    text-align: center;
+    left: 50px;
+    top: -50px;
+  }
+
+}
+
 #link {
   text-decoration: none;
   color: #d13b3e;
