@@ -21,7 +21,6 @@ h1 {
   font-family: 'Oswald', Times, serif;
   line-height: 100%;
   color: white;
-  text-align: right;
   /*phone response*/
   width: 100%;
   max-width: 800px;
@@ -146,6 +145,24 @@ a:hover {
 }
 
 #blacktext {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#redtext {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#titlepage {
   padding-top: 300px;
   padding-bottom: 300px;
   width: 100%;
